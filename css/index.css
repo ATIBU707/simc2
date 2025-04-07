@@ -30,7 +30,7 @@
     padding: 20px;
     position: absolute;
     bottom: 35%;
-    width: 35%;
+    width: 40%;
     text-align: left;
     margin-left: 60px;
     border-radius: 15px;
@@ -511,6 +511,7 @@
     .col {
         grid-template-columns: 0.5fr;
         gap: 0.5rem;
+        width: 100%;
     }
 
     .level-section {
@@ -527,7 +528,6 @@
 
     .subject-item i {
         font-size: 1.2rem;
-        width: 20%;
     }
 
     .level-section h2 {
