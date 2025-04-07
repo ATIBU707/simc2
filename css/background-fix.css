@@ -1,1 +1,25 @@
- 
+/* Fix for background-image on 480px devices */
+.background-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.background-image {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.background-image img {
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+
+.background-text {
+    padding: 20px;
+} 
