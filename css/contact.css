@@ -168,7 +168,7 @@ input:focus, select:focus, textarea:focus {
     .contact-header h1 {
         font-size: 1.8rem;
     }
-    .contact-container{
+    .contact-info{
         grid-template-columns: 1fr;
         width: 50%;
         margin: 0;
@@ -177,8 +177,7 @@ input:focus, select:focus, textarea:focus {
     .contact-form{
         width: 50%;
         margin: 0;
-        background-color: #1e3c72;
-    }
+}
 
     .info-card i {
         font-size: 2rem;
