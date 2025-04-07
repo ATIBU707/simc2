@@ -532,6 +532,11 @@
         font-size: 1.2rem;
     }
 
+    .subject-item {
+        padding: 0.5rem;
+        width: 80%;
+    }
+
     .level-section h2 {
         font-size: 1.3rem;
     }
