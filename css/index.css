@@ -510,7 +510,7 @@
 @media (max-width: 480px) {
     .col {
         grid-template-columns: 0.5fr;
-        gap: 0.1rem;
+        gap: 0rem;
         width: 3%;
         margin: 0;
         padding: 0;
