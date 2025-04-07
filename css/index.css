@@ -511,7 +511,7 @@
     .col {
         grid-template-columns: 0.5fr;
         gap: 0.5rem;
-        width: 90%;
+        width: 50%;
     }
 
     .level-section {
