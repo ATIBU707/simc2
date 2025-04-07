@@ -171,11 +171,12 @@ input:focus, select:focus, textarea:focus {
     .contact-container{
         grid-template-columns: 1fr;
         width: 100%;
+        margin: 0;
     }
 
     .contact-form{
         width: 50%;
-        margin: 0 auto;
+        margin: 0;
     }
 
     .info-card i {
