@@ -11,7 +11,7 @@
             top: 0;
         }
         .navbar{
-            background-color: rgb(113, 113, 196);
+            background-color: #003366;
             color: white;
             display: flex;
             position: sticky;
@@ -24,6 +24,9 @@
         }
         .logo img{
             width: 80px;
+        }
+        .logo{
+            background-color: #4a90e2;
         }
 
         /* Replace hamburger with checkbox hack */
@@ -101,7 +104,7 @@
             z-index: 1000;
             display: block;
             border-radius: 5px;
-            background-color:rgb(127, 127, 217);
+            background-color:#003366;
         }
 
         .dropdown:hover > a i {
@@ -139,7 +142,7 @@
                 top: 80px;
                 gap: 0;
                 flex-direction: column;
-                background-color: rgb(127, 127, 217);
+                background-color: #003366;
                 width: 100%;
                 height: calc(100vh - 80px);
                 text-align: center;
@@ -524,7 +527,7 @@ footer {
 .footer-info img {
     width: 150px;
     margin-bottom: 1px;
-    background-color: #f5f5f5;
+    background-color: #4a90e2;
 }
 
 .footer-info h2 {
