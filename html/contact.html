@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home- Sam Iga Memorial College</title>
+    <link rel="stylesheet" href="../css/Style.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/popup-ad.css">
+    <link rel="shortcut icon" href="../images/cropped-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="location">
+            <div>
+                    <p>
+                        <i class="fas fa-map-marker-alt"></i> Maganjo B Cell, Nabweru Division, Nansana Municipality
+                    </p>
+            </div>
+                    <p style="margin-right: 0px;">
+                        <i class="fas fa-phone-alt"></i>  +256 772 820 615    <i class="fas fa-envelope"></i>  info@simc.com
+                    </p>
+        </div>
+    </header>        
+        <nav>
+        <div class="navbar">
+            <div class="logo">
+                <img src="../images/cropped-logo.png" alt="Sam Iga Memorial College">
+            </div>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <div class="menu">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#">About Us <i class="fas fa-chevron-down"></i></a>
+                    <ul class="submenu">
+                        <li><a href="background.html">Background</a></li>
+                        <li><a href="board.html">Board of Governors</a></li>
+                        <li><a href="pta.html">PTA Executives</a></li>
+                        <li><a href="administration.html">Administrators</a></li>
+                        <li><a href="staff.html">Staff</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="#">Admission <i class="fas fa-chevron-down"></i></a>
+                    <ul class="submenu">
+                        <li><a href="tuition.html">Tuition & Fees</a></li>
+                        <li><a href="apply.html">How to Apply</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="#">Learning <i class="fas fa-chevron-down"></i></a>
+                    <ul class="submenu">
+                        <li><a href="O level.html">O-Level</a></li>
+                        <li><a href="A level.html">A-Level</a></li>
+                    </ul>
+                </li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </ul>
+            </div>
+        </div>
+        </nav>
+
+
+    <main>
+        <section class="contact-section">
+            <div class="contact-header">
+                <h1>Contact Us</h1>
+                <p>We'd love to hear from you. Please fill out the form below or use our contact information.</p>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Our Location</h3>
+                        <p>123 Education Street</p>
+                        <p>City, Country</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone Numbers</h3>
+                        <p>Main: +1234567890</p>
+                        <p>Admissions: +1234567891</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email Addresses</h3>
+                        <p>General: info@samigacollege.edu</p>
+                        <p>Admissions: admissions@samigacollege.edu</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>Working Hours</h3>
+                        <p>Monday - Friday: 8:00 AM - 4:00 PM</p>
+                        <p>Saturday: 9:00 AM - 1:00 PM</p>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h2>Send us a Message</h2>
+                    <form id="contactForm" onsubmit="handleContactSubmit(event)">
+                        <div class="form-group">
+                            <label for="fullName">Full Name</label>
+                            <input type="text" id="fullName" name="fullName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select Subject</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="admission">Admission</option>
+                                <option value="fees">Fees & Payments</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Display submitted contact information -->
+                <div id="submittedContactInfo" class="submitted-contact-info" style="display: none;">
+                    <h2>Message Sent Successfully</h2>
+                    <div class="info-container">
+                        <div class="info-group">
+                            <h3>Your Message Details</h3>
+                            <p><strong>Full Name:</strong> <span id="displayContactName"></span></p>
+                            <p><strong>Email:</strong> <span id="displayContactEmail"></span></p>
+                            <p><strong>Phone:</strong> <span id="displayContactPhone"></span></p>
+                            <p><strong>Subject:</strong> <span id="displayContactSubject"></span></p>
+                            <p><strong>Message:</strong></p>
+                            <div class="message-content">
+                                <p id="displayContactMessage"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="confirmation-message">
+                        <p>Thank you for contacting us. We will get back to you as soon as possible.</p>
+                        <button onclick="window.print()" class="print-btn">Print Message</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="map-section">
+                <h2>Find Us on the Map</h2>
+                <div class="map-container">
+                    <!-- Replace with actual map embed code -->
+                    <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.724730861351!2d32.5443396734922!3d0.3924419639081046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177db17c97a8cae5%3A0x1d1cffde5c93e3cb!2sSam%20Iga%20memorial%20school!5e0!3m2!1sen!2sug!4v1743845297604!5m2!1sen!2sug" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">                       width="100%" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <img src="../images/cropped-logo.png" alt="School Logo">
+                    <h2>Sam Iga Memorial College is a Church of Uganda founded, Government aided "O" and "A" level, mixed day and boarding School.</h2>
+                </div>
+
+                <div class="footer-links">
+                    <h2>Important Links</h2>
+                    <ul>
+                        <li><a href="background.html"><i class="fas fa-chevron-right"></i> Background</a></li>
+                        <li><a href="administration.html"><i class="fas fa-chevron-right"></i> Administration</a></li>
+                        <li><a href="tuition.html"><i class="fas fa-chevron-right"></i> Tuition & Fees</a></li>
+                        <li><a href="apply.html"><i class="fas fa-chevron-right"></i> How to Apply</a></li>
+                        <li><a href="pta.html"><i class="fas fa-chevron-right"></i> PTA Executives</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h2>Contact Us</h2>
+                    <ul>
+                        <li><i class="fas fa-phone-alt"></i> +256 772 820 615<br> +256 702 045962</li>
+                        <li><i class="far fa-envelope"></i> info@simc.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Maganjo B Cell, Nabweru Division, Nansana Municipality</li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <h2>Copyright © 2024 Sam Iga Memorial</h2>
+                <h2>Developed by <a href="https://pahappa.com/">Pahappa Ltd.</a></h2>
+            </div>
+        </div>
+    </footer>
+    <script src="../script/script.js"></script>
+    <script src="../script/contact.js"></script>
+    <script src="../script/popup-ad.js"></script>
+</body>
+</html>
+
