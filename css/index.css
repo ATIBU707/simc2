@@ -511,13 +511,13 @@
     .col {
         grid-template-columns: 0.5fr;
         gap: 0rem;
-        width: 3%;
+        width: 1%;
         margin: 0;
         padding: 0;
     }
 
     .level-section {
-        padding: 0.4rem;
+        padding: 0.2rem;
     }
 
     .icons {
