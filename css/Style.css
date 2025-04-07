@@ -83,11 +83,11 @@
         }
 
         .menu ul li a:hover{
-            color: rgb(28, 28, 211);
+            color: rgb(207, 18, 18);
         }
 
         .menu ul li a.active{
-            color: rgb(28, 28, 211);
+            color: rgb(207, 18, 18);
         }
 
         .menu ul li a.active:hover{
@@ -124,7 +124,7 @@
         }
 
         .social-icons a:hover{
-            color: rgb(28, 28, 211);
+            color: rgb(207, 18, 18);
         }
 
         .social-icons a i{
@@ -682,7 +682,7 @@ footer {
         top: 80px;
         width: 100%;
         height: calc(100vh - 80px);
-        background-color: rgb(127, 127, 217);
+        background-color: #003366;
         transition: 0.3s ease-in-out;
         z-index: 1000;
         overflow-y: auto;
