@@ -509,7 +509,7 @@
 
 @media (max-width: 480px) {
     .col {
-        grid-template-columns: 1fr;
+        grid-template-columns: 0.5fr;
         gap: 0.5rem;
     }
 
@@ -523,10 +523,6 @@
 
     .Subject {
         font-size: 1.5rem;
-    }
-
-    .subject-item {
-        padding: 0.8rem;
     }
 
     .subject-item i {
