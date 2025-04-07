@@ -511,7 +511,7 @@
     .col {
         grid-template-columns: 0.5fr;
         gap: 0.1rem;
-        width: 5%;
+        width: 3%;
         margin: 0;
         padding: 0;
     }
