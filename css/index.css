@@ -510,7 +510,7 @@
 @media (max-width: 480px) {
     .col {
         grid-template-columns: 1fr;
-        gap: 1rem;
+        gap: 0.5rem;
     }
 
     .level-section {
