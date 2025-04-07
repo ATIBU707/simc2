@@ -195,5 +195,58 @@
                         .value-item h3 {
                             font-size: 18px;
                         }
+                        
+                        /* Mobile styles for background content */
+                        .background-content {
+                            grid-template-columns: 1fr !important;
+                            gap: 20px !important;
+                        }
+                        
+                        .background-image {
+                            margin: 0 auto !important;
+                            width: 100% !important;
+                            max-width: 100% !important;
+                            border-radius: 8px !important;
+                        }
+                        
+                        .background-image img {
+                            height: auto !important;
+                            max-height: 300px !important;
+                            object-fit: cover !important;
+                            object-position: center !important;
+                            width: 100% !important;
+                        }
+                        
+                        .background-text {
+                            padding: 20px !important;
+                        }
+                        
+                        /* Mobile styles for mission and vision */
+                        .mission-vision {
+                            grid-template-columns: 1fr !important;
+                            gap: 20px !important;
+                            margin-top: 30px !important;
+                        }
+                        
+                        .mission, .vision {
+                            padding: 24px !important;
+                            border-radius: 8px !important;
+                            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1) !important;
+                            transition: transform 0.3s ease !important;
+                        }
+                        
+                        .mission:hover, .vision:hover {
+                            transform: translateY(-5px) !important;
+                        }
+                        
+                        .mission h3, .vision h3 {
+                            font-size: 20px !important;
+                            margin-bottom: 12px !important;
+                        }
+                        
+                        .mission p, .vision p {
+                            font-size: 14px !important;
+                            line-height: 1.5 !important;
+                        }
                     }
 
