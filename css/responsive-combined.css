@@ -1,0 +1,253 @@
+/* Combined responsive styles for all pages */
+
+/* General responsive styles */
+@media (max-width: 1200px) {
+    .container, 
+    .section-container,
+    .content-container {
+        width: 95%;
+        padding: 0 15px;
+    }
+    
+    .grid-2, 
+    .grid-3, 
+    .grid-4,
+    .values-grid,
+    .application-steps,
+    .dates-grid,
+    .support-options,
+    .mission-vision,
+    .background-content,
+    .col {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    
+    h1 { font-size: 2.2rem; }
+    h2 { font-size: 1.8rem; }
+    h3 { font-size: 1.5rem; }
+    p { font-size: 1rem; }
+}
+
+@media (max-width: 768px) {
+    .container, 
+    .section-container,
+    .content-container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    
+    .grid-2, 
+    .grid-3, 
+    .grid-4,
+    .values-grid,
+    .application-steps,
+    .dates-grid,
+    .support-options,
+    .mission-vision,
+    .background-content,
+    .col {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+    
+    h1 { font-size: 2rem; }
+    h2 { font-size: 1.6rem; }
+    h3 { font-size: 1.3rem; }
+    p { font-size: 0.95rem; }
+    
+    .section, 
+    .apply-section,
+    .background-section,
+    .content-section {
+        padding: 1.5rem 1rem;
+    }
+    
+    .card, 
+    .step-card,
+    .date-card,
+    .support-card,
+    .value-item,
+    .mission,
+    .vision {
+        padding: 15px;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .navbar {
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .nav-links li {
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .container, 
+    .section-container,
+    .content-container {
+        padding: 0 8px;
+    }
+    
+    .grid-2, 
+    .grid-3, 
+    .grid-4,
+    .values-grid,
+    .application-steps,
+    .dates-grid,
+    .support-options,
+    .mission-vision,
+    .background-content,
+    .col {
+        gap: 10px;
+    }
+    
+    h1 { font-size: 1.8rem; }
+    h2 { font-size: 1.4rem; }
+    h3 { font-size: 1.2rem; }
+    p { font-size: 0.9rem; }
+    
+    .section, 
+    .apply-section,
+    .background-section,
+    .content-section {
+        padding: 1rem 0.8rem;
+    }
+    
+    .card, 
+    .step-card,
+    .date-card,
+    .support-card,
+    .value-item,
+    .mission,
+    .vision {
+        padding: 12px;
+        border-radius: 8px;
+    }
+    
+    .button,
+    .submit-btn,
+    .print-btn {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+    
+    input, 
+    select, 
+    textarea {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+    
+    .header,
+    .apply-header,
+    .background-header {
+        padding: 15px 10px;
+    }
+    
+    .footer {
+        padding: 20px 10px;
+    }
+    
+    table {
+        font-size: 0.85rem;
+    }
+    
+    i {
+        font-size: 1rem;
+    }
+    
+    .background-image {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100%;
+        border-radius: 8px;
+    }
+    
+    .background-image img {
+        height: auto;
+        max-height: 300px;
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+    }
+    
+    .mission-vision {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        margin-top: 20px;
+    }
+    
+    .mission, .vision {
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+    
+    .mission:hover, .vision:hover {
+        transform: translateY(-5px);
+    }
+    
+    .mission h3, .vision h3 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+    
+    .mission p, .vision p {
+        font-size: 0.9rem;
+        line-height: 1.4;
+    }
+}
+
+/* Print styles */
+@media print {
+    .navbar,
+    .footer,
+    .header,
+    .apply-header,
+    .background-header,
+    .nav-links,
+    .button,
+    .submit-btn,
+    .print-btn {
+        display: none !important;
+    }
+    
+    body {
+        font-size: 12pt;
+        line-height: 1.5;
+    }
+    
+    .container, 
+    .section-container,
+    .content-container {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+    
+    img {
+        max-width: 100%;
+    }
+} 

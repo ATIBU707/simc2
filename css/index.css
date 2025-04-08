@@ -30,7 +30,7 @@
     padding: 20px;
     position: absolute;
     bottom: 35%;
-    width: 35%;
+    width: 40%;
     text-align: left;
     margin-left: 60px;
     border-radius: 15px;
@@ -509,12 +509,16 @@
 
 @media (max-width: 480px) {
     .col {
-        grid-template-columns: 1fr;
-        gap: 1rem;
+        grid-template-columns: 0.5fr;
+        gap: 0rem;
+        width: 1%;
+        margin: 0;
+        padding: 0;
     }
 
     .level-section {
-        padding: 0.8rem;
+        padding: 0.2rem;
+        width: 90%;
     }
 
     .icons {
@@ -522,15 +526,16 @@
     }
 
     .Subject {
-        font-size: 1.5rem;
-    }
-
-    .subject-item {
-        padding: 0.8rem;
+        font-size: 1rem;
     }
 
     .subject-item i {
         font-size: 1.2rem;
+    }
+
+    .subject-item {
+        padding: 0.5rem;
+        width: 80%;
     }
 
     .level-section h2 {

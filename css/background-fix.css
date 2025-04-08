@@ -1,0 +1,55 @@
+/* Fix for background-image on 480px devices */
+.background-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.background-image {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.background-image img {
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+
+.background-text {
+    padding: 20px;
+}
+
+/* Make mission and vision look like core values on 480px devices */
+@media (max-width: 480px) {
+    .mission-vision {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        margin-top: 30px;
+    }
+    
+    .mission, .vision {
+        padding: 24px;
+        border-radius: 8px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+    
+    .mission:hover, .vision:hover {
+        transform: translateY(-5px);
+    }
+    
+    .mission h3, .vision h3 {
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+    
+    .mission p, .vision p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+} 
