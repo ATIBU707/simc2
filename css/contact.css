@@ -171,7 +171,8 @@ input:focus, select:focus, textarea:focus {
     .contact-info{
         grid-template-columns: 1fr;
         width: 50%;
-        margin: 0;
+        margin-left: 20px;
+
     }
 
     .contact-form{
