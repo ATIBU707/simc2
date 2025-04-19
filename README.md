@@ -26,10 +26,7 @@ Technologies Used
 **Google Fonts** – Custom typography  
 **Visual Assets** – Images and icons
 
----
-
 Responsive Design
-
 The site has been tested and optimized for:
 Desktop browsers (Chrome, Firefox, Edge)
 Mobile devices (Android & iOS)
@@ -47,9 +44,6 @@ simc2/
 ├── style.css           # Styling file
 ├── script.js           # Slider functionality
 └── assets/             # Images and media
-```
-
----
 
 Status
 **Completed:** 19th April 2025  
