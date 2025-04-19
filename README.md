@@ -19,6 +19,7 @@ Contact information with email and location
 
 
 Technologies Used
+
 **HTML5** – Page structure and markup  
 **CSS3** – Styling and responsiveness  
 **JavaScript** – Basic interactivity (e.g., slider)  
