@@ -30,19 +30,19 @@
     right: 15px;
     font-size: 24px;
     font-weight: bold;
-    color: white;
+    color: #fff;
     cursor: pointer;
     z-index: 10;
     transition: color 0.2s;
 }
 
 .popup-ad-close:hover {
-    color: red;
+    color: rgb(211, 21, 21);
 }
 
 .popup-ad-header {
     background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-    color: white;
+    color: #fff;
     padding: 15px 20px;
     text-align: center;
 }
