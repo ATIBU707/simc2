@@ -30,14 +30,14 @@
     right: 15px;
     font-size: 24px;
     font-weight: bold;
-    color: #666;
+    color: white;
     cursor: pointer;
     z-index: 10;
     transition: color 0.2s;
 }
 
 .popup-ad-close:hover {
-    color: #000;
+    color: red;
 }
 
 .popup-ad-header {
